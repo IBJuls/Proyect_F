@@ -1,0 +1,99 @@
+*{
+    font-family: 'Comfortaa', sans-serif;
+
+}
+.contenedorlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background-color: #b6b6b6;
+}
+.logocentral{
+    height: auto;
+}
+.Titulo{
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+.descripcion{
+    display: flex;
+    gap: 30px;           
+    flex-wrap: wrap;      
+    align-items: center; 
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-left: 20px;
+}
+.txt_desc{
+    flex: 1;
+    min-width: 200px;
+}
+.img_desc{
+    max-width: 657px;
+    width: 600px;      
+    height: auto;
+    flex-shrink: 0;    
+    border-radius: 10px;
+}
+
+.vid_cont{
+    margin-top: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF9A00;
+    padding: 40px;
+    color: aliceblue;
+    padding: 30px;
+    gap: 50px;
+}
+
+.btn{
+    display: inline-block;
+  padding: 12px 20px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none; 
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s; 
+}
+.btn:hover {
+  padding: 12px 20px;
+  background-color: #fff;
+  color: #3498db;
+  border: 2px solid #3498db;  
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.general{
+    text-align: center;
+    padding: 20px;
+}
+
+.img_crc{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%; 
+  display: block;
+  margin: 0 auto 15px;
+}
+
+.lista_btn{
+    display: flex;
+  justify-content: center;   /* centra horizontalmente */
+  gap: 200px;                 /* espacio entre tarjetas */
+  flex-wrap: wrap;           /* se acomoda en varias líneas si no hay espacio */
+}
+
+.txt_vid{
+   width: 600px;
+}
