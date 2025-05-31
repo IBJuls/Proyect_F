@@ -97,3 +97,10 @@
 .txt_vid{
    width: 600px;
 }
+
+footer{
+    align-items: center;
+    justify-content: center;
+    background-color: #b6b6b6;
+    display: flex;
+}
